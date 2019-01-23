@@ -60,11 +60,11 @@ Finally, to run the API, either:
 `yarn start` or `npm start` from within the `api` folder. Your API calls will 
 be: 
 
-- List all stories: `GET - http://localhost:3000/stories`
-- Create a story:   `POST - http://localhost:3000/stories`
-- View a story:   `GET - http://localhost:3000/stories/:id`
-- Add a comment: `POST - http://localhost:3000/stories/:id/comments`
-- Upvote a story: `PUT - http://localhost:3000/stories/:id`
+- List all stories: `GET - http://localhost:3001/stories`
+- Create a story:   `POST - http://localhost:3001/stories`
+- View a story:   `GET - http://localhost:3001/stories/:id`
+- Add a comment: `POST - http://localhost:3001/stories/:id/comments`
+- Upvote a story: `PUT - http://localhost:3001/stories/:id`
 
 ### Things to remember
 
