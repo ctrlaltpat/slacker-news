@@ -1,4 +1,135 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  /* -webkit-appearance: none;
+	-moz-appearance: none; */
 }
 
+html, body {
+  text-rendering: optimizeLegibility;
+  -webkit-text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Raleway', 'Roboto', lato, Arial, sans-serif !important;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  color: #ff8400;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+header {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2, h3 {
+  margin: 10px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.pagination {text-align: center;}
+.pagination ul {display: inline-block;}
+.pagination li, .pagination button {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 2px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.pagination button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+li.active {
+  background-color: #ff8400;
+}
+
+.story-item {
+  padding: 10px;
+  font-size: 20px;
+}
+.item-number {
+  display: block;
+  float: left;
+  height: 45px;
+  width: 30px;
+  font-size: 20px;
+}
+.story-item-inner {
+  padding-left: 30px;
+}
+.story-item-inner p {
+  font-size: 16px;
+}
+
+.story-details {
+  padding: 20px;
+}
+.story-details h2 + a {
+  text-align: right;
+}
+.story-details p {
+  margin: 20px 10px;
+}
+.story-details button.upvote {
+  padding: 5px 10px;
+  margin: 5px 20px;
+  border-radius: 4px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.comment-form button {
+  padding: 10px;
+  border-radius: 4px;
+}
+.comments-list {
+  padding: 10px;
+}
+.comments-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #999999;
+}
+.comments-list P {
+  margin: 5px 0;
+}
